@@ -9,7 +9,7 @@ module.exports = {
     fontFamily: {
       sans: [
         "Inter",
-	"Spoqa Han Sans Neo",
+        "Spoqa Han Sans Neo",
         "SF Pro Text",
         "-apple-system",
         "BlinkMacSystemFont",
@@ -19,7 +19,7 @@ module.exports = {
       ],
       mono: [
         "Fira Code",
-	"Nanum Gothic Coding",
+        "Nanum Gothic Coding",
         "SFMono-Regular",
         "Menlo",
         "Segoe UI",
@@ -28,5 +28,12 @@ module.exports = {
       ]
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography"), require("daisyui")],
+  daisyui: {
+  themes: [
+    "cupcake",
+    "coffee"
+  ],
+  darkTheme: "coffee",
+},
 }

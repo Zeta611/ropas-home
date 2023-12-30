@@ -3,9 +3,115 @@
 import * as JsxRuntime from "react/jsx-runtime";
 
 function Home(props) {
-  return JsxRuntime.jsx("div", {
-              children: "Hello, World!",
-              className: "font-semibold dark:text-white"
+  return JsxRuntime.jsxs("article", {
+              children: [
+                JsxRuntime.jsx("h1", {
+                      children: "Jaeho Lee"
+                    }),
+                JsxRuntime.jsxs("ul", {
+                      children: [
+                        JsxRuntime.jsx("li", {
+                              children: JsxRuntime.jsx("a", {
+                                    children: "GitHub profile",
+                                    href: "https://github.com/Zeta611"
+                                  })
+                            }),
+                        JsxRuntime.jsx("li", {
+                              children: JsxRuntime.jsx("a", {
+                                    children: "Curriculum Vitae",
+                                    href: "https://nbviewer.org/github/Zeta611/curriculum-vitae/blob/main/build/default/default.pdf"
+                                  })
+                            }),
+                        JsxRuntime.jsx("li", {
+                              children: JsxRuntime.jsx("a", {
+                                    children: "Personal blog",
+                                    href: "https://zetablog.io"
+                                  })
+                            })
+                      ]
+                    }),
+                JsxRuntime.jsx("img", {
+                      className: "w-[360px] h-[360px]",
+                      alt: "Photo of Jaeho Lee",
+                      src: "./jhlee_photo.jpg"
+                    }),
+                JsxRuntime.jsx("h2", {
+                      children: "Research Interests"
+                    }),
+                JsxRuntime.jsxs("ul", {
+                      children: [
+                        JsxRuntime.jsx("li", {
+                              children: "Programming Languages"
+                            }),
+                        JsxRuntime.jsx("li", {
+                              children: "Functional Programming"
+                            }),
+                        JsxRuntime.jsx("li", {
+                              children: "Software Engineering"
+                            }),
+                        JsxRuntime.jsx("li", {
+                              children: "Static Analysis"
+                            })
+                      ]
+                    }),
+                JsxRuntime.jsx("h2", {
+                      children: "Education"
+                    }),
+                JsxRuntime.jsxs("ul", {
+                      children: [
+                        JsxRuntime.jsx("li", {
+                              children: "MS, Computer Science and Engineering, Seoul National University (Mar 2024 - )"
+                            }),
+                        JsxRuntime.jsx("li", {
+                              children: "BS, Electrical and Computer Engineering, Seoul National University (Mar 2018 - Feb 2024)"
+                            }),
+                        JsxRuntime.jsx("ul", {
+                              children: JsxRuntime.jsx("li", {
+                                    children: "Intern, ROPAS Laboratory, Computer Science and Engineering, Seoul National University (Jan 2022 - Feb 2024)"
+                                  })
+                            }),
+                        JsxRuntime.jsx("li", {
+                              children: "Korea Science Academy of KAIST (Mar 2015 - Feb 2018)"
+                            })
+                      ]
+                    }),
+                JsxRuntime.jsx("h2", {
+                      children: "Teaching"
+                    }),
+                JsxRuntime.jsx("ul", {
+                      children: JsxRuntime.jsx("li", {
+                            children: "2022 Spring: Programming Language (TA)"
+                          })
+                    }),
+                JsxRuntime.jsx("h2", {
+                      children: "Miscellaneous"
+                    }),
+                JsxRuntime.jsx("ul", {
+                      children: JsxRuntime.jsxs("li", {
+                            children: [
+                              "Receding Horizon Next-Best-View Planner Based Voronoi-Biased 3D Multi-Robot Exploration Algorithm, \nJaeho Lee, Chaeju Lee, Woochang Jung, Soohwan Song, Sungo Jo, Proceedings of the Korea Information Processing Society Conference, pp. 579-580, Oct. 2016, ",
+                              JsxRuntime.jsx("a", {
+                                    children: "doi:10.3745/PKIPS.Y2016M10A.579.",
+                                    href: "https://doi.org/10.3745/PKIPS.Y2016M10A.579"
+                                  })
+                            ]
+                          })
+                    }),
+                JsxRuntime.jsx("h2", {
+                      children: "Contact Information"
+                    }),
+                JsxRuntime.jsxs(JsxRuntime.Fragment, {
+                      children: [
+                        JsxRuntime.jsx("b", {
+                              children: "Email:"
+                            }),
+                        JsxRuntime.jsx("address", {
+                              children: "jhlee (at) ropas.snu.ac.kr"
+                            })
+                      ]
+                    })
+              ],
+              className: "px-6 py-12 max-w-xl mx-auto md:max-w-4xl prose"
             });
 }
 

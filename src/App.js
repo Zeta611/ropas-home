@@ -7,10 +7,10 @@ import * as RescriptReactRouter from "../node_modules/@rescript/react/src/Rescri
 function App(props) {
   var url = RescriptReactRouter.useUrl(undefined, undefined);
   var match = url.path;
-  if (match) {
-    return "404";
-  } else {
+  if (match && match.hd === "~jhlee" && !match.tl) {
     return JsxRuntime.jsx(Home.make, {});
+  } else {
+    return "404";
   }
 }
 

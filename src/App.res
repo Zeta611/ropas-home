@@ -4,7 +4,7 @@ let make = () => {
 
   {
     switch url.path {
-    | list{} => <Home />
+    | list{"~jhlee"} => <Home />
     | _ => React.string("404")
     }
   }
