@@ -31,7 +31,7 @@ function Home(props) {
                       ]
                     }),
                 JsxRuntime.jsx("img", {
-                      className: "w-[360px] h-[360px]",
+                      className: "w-[270px] h-[360px]",
                       alt: "Photo of Jaeho Lee",
                       src: "./jhlee_photo.jpg"
                     }),
@@ -60,28 +60,60 @@ function Home(props) {
                 JsxRuntime.jsxs("ul", {
                       children: [
                         JsxRuntime.jsx("li", {
-                              children: "MS, Computer Science and Engineering, Seoul National University (Mar 2024 - )"
-                            }),
-                        JsxRuntime.jsx("li", {
-                              children: "BS, Electrical and Computer Engineering, Seoul National University (Mar 2018 - Feb 2024)"
+                              children: "MS, Computer Science and Engineering, Seoul National University (Mar 2024 – )"
                             }),
                         JsxRuntime.jsx("ul", {
                               children: JsxRuntime.jsx("li", {
-                                    children: "Intern, ROPAS Laboratory, Computer Science and Engineering, Seoul National University (Jan 2022 - Feb 2024)"
+                                    children: "ROPAS (Mar 2024 – )"
                                   })
                             }),
                         JsxRuntime.jsx("li", {
-                              children: "Korea Science Academy of KAIST (Mar 2015 - Feb 2018)"
+                              children: "BS, Electrical and Computer Engineering, Seoul National University (Mar 2018 – Feb 2024)"
+                            }),
+                        JsxRuntime.jsxs("ul", {
+                              children: [
+                                JsxRuntime.jsx("li", {
+                                      children: "National Presidential Scholarship for Science (full-tuition scholarship)"
+                                    }),
+                                JsxRuntime.jsx("li", {
+                                      children: "Intern@ROPAS (Jan 2022 – Feb 2024)"
+                                    }),
+                                JsxRuntime.jsx("li", {
+                                      children: "Leave of absence for military duty during 2020 – 2021"
+                                    }),
+                                JsxRuntime.jsxs("li", {
+                                      children: [
+                                        JsxRuntime.jsx("span", {
+                                              children: "cum laude; ",
+                                              className: "italic"
+                                            }),
+                                        "GPA 3.81/4.3"
+                                      ]
+                                    })
+                              ]
+                            }),
+                        JsxRuntime.jsx("li", {
+                              children: "Korea Science Academy of KAIST (Mar 2015 – Feb 2018)"
+                            }),
+                        JsxRuntime.jsx("ul", {
+                              children: JsxRuntime.jsx("li", {
+                                    children: "GPA 4.05/4.3"
+                                  })
                             })
                       ]
                     }),
                 JsxRuntime.jsx("h2", {
                       children: "Teaching"
                     }),
-                JsxRuntime.jsx("ul", {
-                      children: JsxRuntime.jsx("li", {
-                            children: "2022 Spring: Programming Language (TA)"
-                          })
+                JsxRuntime.jsxs("ul", {
+                      children: [
+                        JsxRuntime.jsx("li", {
+                              children: "2022 Spring: Programming Language (TA)"
+                            }),
+                        JsxRuntime.jsx("li", {
+                              children: "2024 Spring: Programming Language (TA)"
+                            })
+                      ]
                     }),
                 JsxRuntime.jsx("h2", {
                       children: "Miscellaneous"
@@ -100,18 +132,11 @@ function Home(props) {
                 JsxRuntime.jsx("h2", {
                       children: "Contact Information"
                     }),
-                JsxRuntime.jsxs(JsxRuntime.Fragment, {
-                      children: [
-                        JsxRuntime.jsx("b", {
-                              children: "Email:"
-                            }),
-                        JsxRuntime.jsx("address", {
-                              children: "jhlee (at) ropas.snu.ac.kr"
-                            })
-                      ]
+                JsxRuntime.jsx("address", {
+                      children: "jhlee (at) ropas.snu.ac.kr"
                     })
               ],
-              className: "px-6 py-12 max-w-xl mx-auto md:max-w-4xl prose"
+              className: "px-6 py-12 max-w-xl mx-auto md:max-w-4xl prose text-lg"
             });
 }
 
