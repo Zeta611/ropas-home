@@ -55,6 +55,49 @@ function Home(props) {
                       ]
                     }),
                 JsxRuntime.jsx("h2", {
+                      children: "Projects"
+                    }),
+                JsxRuntime.jsxs("ul", {
+                      children: [
+                        JsxRuntime.jsx("li", {
+                              children: JsxRuntime.jsx("a", {
+                                    children: "React-tRace: Formal semantics and static analysis of React hooks",
+                                    href: "https://github.com/React-Analysis/react-trace"
+                                  })
+                            }),
+                        JsxRuntime.jsx("li", {
+                              children: JsxRuntime.jsx("a", {
+                                    children: "easyword.kr: A platform for translating CS jargons into easy to understand Korean",
+                                    href: "https://easyword.kr"
+                                  })
+                            }),
+                        JsxRuntime.jsx("li", {
+                              children: JsxRuntime.jsx("a", {
+                                    children: "simplebnf: an intuitive BNF grammar typesetting using DSL",
+                                    href: "https://github.com/Zeta611/simplebnf"
+                                  })
+                            }),
+                        JsxRuntime.jsx("li", {
+                              children: JsxRuntime.jsx("a", {
+                                    children: "STAPPL: a statically-typed probabilistic programming language",
+                                    href: "https://github.com/Zeta611/stappl"
+                                  })
+                            }),
+                        JsxRuntime.jsx("li", {
+                              children: JsxRuntime.jsx("a", {
+                                    children: "prospect-analyzer: a shape-checker for programs with holes",
+                                    href: "https://github.com/Zeta611/prospect-analyzer"
+                                  })
+                            }),
+                        JsxRuntime.jsx("li", {
+                              children: JsxRuntime.jsx("a", {
+                                    children: "Rust MIR Escape Analysis: An Application to Protecting Dynamic Pointer Metadata",
+                                    href: "https://github.com/Zeta611/rust-escape-analysis-thesis"
+                                  })
+                            })
+                      ]
+                    }),
+                JsxRuntime.jsx("h2", {
                       children: "Education"
                     }),
                 JsxRuntime.jsxs("ul", {
@@ -62,10 +105,15 @@ function Home(props) {
                         JsxRuntime.jsx("li", {
                               children: "MS, Computer Science and Engineering, Seoul National University (Mar 2024 – )"
                             }),
-                        JsxRuntime.jsx("ul", {
-                              children: JsxRuntime.jsx("li", {
-                                    children: "ROPAS (Mar 2024 – )"
-                                  })
+                        JsxRuntime.jsxs("ul", {
+                              children: [
+                                JsxRuntime.jsx("li", {
+                                      children: "ROPAS (Mar 2024 – )"
+                                    }),
+                                JsxRuntime.jsx("li", {
+                                      children: "GPA 4.15/4.3"
+                                    })
+                              ]
                             }),
                         JsxRuntime.jsx("li", {
                               children: "BS, Electrical and Computer Engineering, Seoul National University (Mar 2018 – Feb 2024)"
@@ -116,24 +164,27 @@ function Home(props) {
                       ]
                     }),
                 JsxRuntime.jsx("h2", {
-                      children: "Miscellaneous"
-                    }),
-                JsxRuntime.jsx("ul", {
-                      children: JsxRuntime.jsxs("li", {
-                            children: [
-                              "Receding Horizon Next-Best-View Planner Based Voronoi-Biased 3D Multi-Robot Exploration Algorithm, \nJaeho Lee, Chaeju Lee, Woochang Jung, Soohwan Song, Sungo Jo, Proceedings of the Korea Information Processing Society Conference, pp. 579-580, Oct. 2016, ",
-                              JsxRuntime.jsx("a", {
-                                    children: "doi:10.3745/PKIPS.Y2016M10A.579.",
-                                    href: "https://doi.org/10.3745/PKIPS.Y2016M10A.579"
-                                  })
-                            ]
-                          })
-                    }),
-                JsxRuntime.jsx("h2", {
                       children: "Contact Information"
                     }),
-                JsxRuntime.jsx("address", {
-                      children: "jhlee (at) ropas.snu.ac.kr"
+                JsxRuntime.jsx("a", {
+                      children: JsxRuntime.jsx("address", {
+                            children: "jhlee (at) ropas[.snu.ac.kr]"
+                          }),
+                      href: "https://mailhide.io/e/P9QWrvgX",
+                      target: "_blank"
+                    }),
+                JsxRuntime.jsxs("address", {
+                      children: [
+                        "Room 312-2, Bldg 302",
+                        JsxRuntime.jsx("br", {}),
+                        JsxRuntime.jsx("a", {
+                              children: "Dept. of Computer Science and Engineering",
+                              href: "http://cse.snu.ac.kr/",
+                              target: "_blank"
+                            }),
+                        JsxRuntime.jsx("br", {}),
+                        "Seoul National University"
+                      ]
                     })
               ],
               className: "px-6 py-12 max-w-xl mx-auto md:max-w-4xl prose text-lg"

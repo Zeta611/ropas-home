@@ -24,6 +24,39 @@ let make = () => {
       <li> {"Software Engineering"->React.string} </li>
       <li> {"Static Analysis"->React.string} </li>
     </ul>
+    <h2> {"Projects"->React.string} </h2>
+    <ul>
+      <li>
+        <a href="https://github.com/React-Analysis/react-trace">
+          {"React-tRace: Formal semantics and static analysis of React hooks"->React.string}
+        </a>
+      </li>
+      <li>
+        <a href="https://easyword.kr">
+          {"easyword.kr: A platform for translating CS jargons into easy to understand Korean"->React.string}
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/Zeta611/simplebnf">
+          {"simplebnf: an intuitive BNF grammar typesetting using DSL"->React.string}
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/Zeta611/stappl">
+          {"STAPPL: a statically-typed probabilistic programming language"->React.string}
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/Zeta611/prospect-analyzer">
+          {"prospect-analyzer: a shape-checker for programs with holes"->React.string}
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/Zeta611/rust-escape-analysis-thesis">
+          {"Rust MIR Escape Analysis: An Application to Protecting Dynamic Pointer Metadata"->React.string}
+        </a>
+      </li>
+    </ul>
     <h2> {"Education"->React.string} </h2>
     <ul>
       <li>
@@ -31,6 +64,7 @@ let make = () => {
       </li>
       <ul>
         <li> {"ROPAS (Mar 2024 – )"->React.string} </li>
+        <li> {"GPA 4.15/4.3"->React.string} </li>
       </ul>
       <li>
         {"BS, Electrical and Computer Engineering, Seoul National University (Mar 2018 – Feb 2024)"->React.string}
@@ -56,16 +90,18 @@ let make = () => {
       <li> {"2022 Spring: Programming Language (TA)"->React.string} </li>
       <li> {"2024 Spring: Programming Language (TA)"->React.string} </li>
     </ul>
-    <h2> {"Miscellaneous"->React.string} </h2>
-    <ul>
-      <li>
-        {"Receding Horizon Next-Best-View Planner Based Voronoi-Biased 3D Multi-Robot Exploration Algorithm, \nJaeho Lee, Chaeju Lee, Woochang Jung, Soohwan Song, Sungo Jo, Proceedings of the Korea Information Processing Society Conference, pp. 579-580, Oct. 2016, "->React.string}
-        <a href="https://doi.org/10.3745/PKIPS.Y2016M10A.579">
-          {"doi:10.3745/PKIPS.Y2016M10A.579."->React.string}
-        </a>
-      </li>
-    </ul>
     <h2> {"Contact Information"->React.string} </h2>
-    <address> {"jhlee (at) ropas.snu.ac.kr"->React.string} </address>
+    <a target="_blank" href="https://mailhide.io/e/P9QWrvgX">
+      <address> {"jhlee (at) ropas[.snu.ac.kr]"->React.string} </address>
+    </a>
+    <address>
+      {"Room 312-2, Bldg 302"->React.string}
+      <br />
+      <a target="_blank" href="http://cse.snu.ac.kr/">
+        {"Dept. of Computer Science and Engineering"->React.string}
+      </a>
+      <br />
+      {"Seoul National University"->React.string}
+    </address>
   </article>
 }
