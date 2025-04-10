@@ -6,7 +6,7 @@ function Home(props) {
   return JsxRuntime.jsxs("article", {
               children: [
                 JsxRuntime.jsx("h1", {
-                      children: "Jaeho Lee"
+                      children: "Jay Lee"
                     }),
                 JsxRuntime.jsxs("ul", {
                       children: [
@@ -19,20 +19,20 @@ function Home(props) {
                         JsxRuntime.jsx("li", {
                               children: JsxRuntime.jsx("a", {
                                     children: "Curriculum Vitae",
-                                    href: "https://nbviewer.org/github/Zeta611/curriculum-vitae/blob/main/build/default/default.pdf"
+                                    href: "https://nbviewer.org/github/Zeta611/curriculum-vitae/blob/main/resume.pdf"
                                   })
                             }),
                         JsxRuntime.jsx("li", {
                               children: JsxRuntime.jsx("a", {
                                     children: "Personal blog",
-                                    href: "https://zetablog.io"
+                                    href: "https://jaylee.xyz"
                                   })
                             })
                       ]
                     }),
                 JsxRuntime.jsx("img", {
                       className: "w-[270px] h-[360px]",
-                      alt: "Photo of Jaeho Lee",
+                      alt: "Photo of Jay Lee",
                       src: "./jhlee_photo.jpg"
                     }),
                 JsxRuntime.jsx("h2", {
@@ -44,55 +44,93 @@ function Home(props) {
                               children: "Programming Languages"
                             }),
                         JsxRuntime.jsx("li", {
-                              children: "Functional Programming"
+                              children: "Program Analysis"
                             }),
                         JsxRuntime.jsx("li", {
                               children: "Software Engineering"
                             }),
                         JsxRuntime.jsx("li", {
-                              children: "Static Analysis"
+                              children: "Functional Programming"
                             })
                       ]
                     }),
                 JsxRuntime.jsx("h2", {
-                      children: "Projects"
+                      children: "Research Projects"
                     }),
                 JsxRuntime.jsxs("ul", {
                       children: [
-                        JsxRuntime.jsx("li", {
-                              children: JsxRuntime.jsx("a", {
-                                    children: "React-tRace: Formal semantics and static analysis of React hooks",
-                                    href: "https://github.com/React-Analysis/react-trace"
-                                  })
+                        JsxRuntime.jsxs("li", {
+                              children: [
+                                "Retargeting an Abstract Interpreter for a New Language by Partial Evaluation",
+                                JsxRuntime.jsx("ul", {
+                                      children: JsxRuntime.jsx("li", {
+                                            children: "Ongoing research"
+                                          })
+                                    })
+                              ]
                             }),
-                        JsxRuntime.jsx("li", {
-                              children: JsxRuntime.jsx("a", {
-                                    children: "easyword.kr: A platform for translating CS jargons into easy to understand Korean",
-                                    href: "https://easyword.kr"
-                                  })
+                        JsxRuntime.jsxs("li", {
+                              children: [
+                                JsxRuntime.jsx("a", {
+                                      children: "React-tRace: A Semantics for Understanding React Hooks",
+                                      href: "https://github.com/Zeta611/react-trace"
+                                    }),
+                                JsxRuntime.jsxs("ul", {
+                                      children: [
+                                        JsxRuntime.jsx("li", {
+                                              children: "Submitted to OOPSLA '25"
+                                            }),
+                                        JsxRuntime.jsx("li", {
+                                              children: JsxRuntime.jsx("a", {
+                                                    children: "The React-tRace interpreter and visualizer",
+                                                    href: "https://jaylee.xyz/react-trace"
+                                                  })
+                                            })
+                                      ]
+                                    })
+                              ]
                             }),
-                        JsxRuntime.jsx("li", {
-                              children: JsxRuntime.jsx("a", {
-                                    children: "simplebnf: an intuitive BNF grammar typesetting using DSL",
-                                    href: "https://github.com/Zeta611/simplebnf"
-                                  })
+                        JsxRuntime.jsxs("li", {
+                              children: [
+                                JsxRuntime.jsx("a", {
+                                      children: "STAPPL: Statically Typed Probabilistic Programming Language",
+                                      href: "https://github.com/Zeta611/stappl"
+                                    }),
+                                JsxRuntime.jsxs("ul", {
+                                      children: [
+                                        JsxRuntime.jsx("li", {
+                                              children: "Final project for SNU graduate course Probabilistic Graphical Models (ranked top-3)"
+                                            }),
+                                        JsxRuntime.jsx("li", {
+                                              children: JsxRuntime.jsx("a", {
+                                                    children: "Technical Report",
+                                                    href: "./stappl.pdf"
+                                                  })
+                                            })
+                                      ]
+                                    })
+                              ]
                             }),
-                        JsxRuntime.jsx("li", {
-                              children: JsxRuntime.jsx("a", {
-                                    children: "STAPPL: a statically-typed probabilistic programming language",
-                                    href: "https://github.com/Zeta611/stappl"
-                                  })
+                        JsxRuntime.jsxs("li", {
+                              children: [
+                                JsxRuntime.jsx("a", {
+                                      children: "Rust MIR Escape Analysis: An Application to Protecting Dynamic Pointer Metadata",
+                                      href: "https://github.com/Zeta611/mir-escape-analysis"
+                                    }),
+                                JsxRuntime.jsx("ul", {
+                                      children: JsxRuntime.jsx("li", {
+                                            children: JsxRuntime.jsx("a", {
+                                                  children: "SNU BS Thesis",
+                                                  href: "./bs-thesis-rust-mir-escape-analysis.pdf"
+                                                })
+                                          })
+                                    })
+                              ]
                             }),
                         JsxRuntime.jsx("li", {
                               children: JsxRuntime.jsx("a", {
                                     children: "prospect-analyzer: a shape-checker for programs with holes",
                                     href: "https://github.com/Zeta611/prospect-analyzer"
-                                  })
-                            }),
-                        JsxRuntime.jsx("li", {
-                              children: JsxRuntime.jsx("a", {
-                                    children: "Rust MIR Escape Analysis: An Application to Protecting Dynamic Pointer Metadata",
-                                    href: "https://github.com/Zeta611/rust-escape-analysis-thesis"
                                   })
                             })
                       ]
@@ -124,7 +162,7 @@ function Home(props) {
                                       children: "National Presidential Scholarship for Science (full-tuition scholarship)"
                                     }),
                                 JsxRuntime.jsx("li", {
-                                      children: "Intern@ROPAS (Jan 2022 – Feb 2024)"
+                                      children: "Undergraduate Internship at ROPAS (Jan 2022 – Feb 2024)"
                                     }),
                                 JsxRuntime.jsx("li", {
                                       children: "Leave of absence for military duty during 2020 – 2021"
@@ -156,10 +194,46 @@ function Home(props) {
                 JsxRuntime.jsxs("ul", {
                       children: [
                         JsxRuntime.jsx("li", {
-                              children: "2022 Spring: Programming Language (TA)"
+                              children: "2022 Spring: Programming Languages (TA)"
                             }),
                         JsxRuntime.jsx("li", {
-                              children: "2024 Spring: Programming Language (TA)"
+                              children: "2024 Spring: Programming Languages (TA)"
+                            }),
+                        JsxRuntime.jsx("ul", {
+                              children: JsxRuntime.jsx("li", {
+                                    children: "Received the best TA award"
+                                  })
+                            }),
+                        JsxRuntime.jsx("li", {
+                              children: "2025 Spring: Programming Languages (TA)"
+                            }),
+                        JsxRuntime.jsx("li", {
+                              children: "2025 Spring: Program Analysis (TA)"
+                            })
+                      ]
+                    }),
+                JsxRuntime.jsx("h2", {
+                      children: "Miscellaneous"
+                    }),
+                JsxRuntime.jsxs("ul", {
+                      children: [
+                        JsxRuntime.jsx("li", {
+                              children: JsxRuntime.jsx("a", {
+                                    children: "easyword.kr: A platform for translating CS jargons into easy to understand Korean",
+                                    href: "https://easyword.kr"
+                                  })
+                            }),
+                        JsxRuntime.jsx("li", {
+                              children: JsxRuntime.jsx("a", {
+                                    children: "simplebnf: an intuitive BNF grammar typesetting in LaTeX using DSL",
+                                    href: "https://github.com/Zeta611/simplebnf"
+                                  })
+                            }),
+                        JsxRuntime.jsx("li", {
+                              children: JsxRuntime.jsx("a", {
+                                    children: "Intel International Science and Engineering Fair 2017 (ISEF 2017) Finalist",
+                                    href: "https://sspcdn.blob.core.windows.net/files/Documents/SEP/ISEF/2017/Attendees/Programs/Book.pdf"
+                                  })
                             })
                       ]
                     }),

@@ -15,6 +15,7 @@ yarn install
 - Build: `yarn build:deps`
 - Clean: `yarn clean`
 - Build & watch: `yarn build:watch`
+- Release: `yarn release`
 
 ## Run
 
