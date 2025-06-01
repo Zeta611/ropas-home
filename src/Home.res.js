@@ -62,10 +62,18 @@ function Home(props) {
                         JsxRuntime.jsxs("li", {
                               children: [
                                 "Retargeting an Abstract Interpreter for a New Language by Partial Evaluation",
-                                JsxRuntime.jsx("ul", {
-                                      children: JsxRuntime.jsx("li", {
-                                            children: "Ongoing research"
-                                          })
+                                JsxRuntime.jsxs("ul", {
+                                      children: [
+                                        JsxRuntime.jsx("li", {
+                                              children: "Ongoing research"
+                                            }),
+                                        JsxRuntime.jsx("li", {
+                                              children: JsxRuntime.jsx("a", {
+                                                    children: "Accepted to PLDI 2025 Student Research Competition (SRC)",
+                                                    href: "https://pldi25.sigplan.org/details/pldi-2025-src/1/"
+                                                  })
+                                            })
+                                      ]
                                     })
                               ]
                             }),
@@ -78,7 +86,7 @@ function Home(props) {
                                 JsxRuntime.jsxs("ul", {
                                       children: [
                                         JsxRuntime.jsx("li", {
-                                              children: "Submitted to OOPSLA '25"
+                                              children: "Submitted to OOPSLA 2025"
                                             }),
                                         JsxRuntime.jsx("li", {
                                               children: JsxRuntime.jsx("a", {
@@ -194,21 +202,24 @@ function Home(props) {
                 JsxRuntime.jsxs("ul", {
                       children: [
                         JsxRuntime.jsx("li", {
-                              children: "2022 Spring: Programming Languages (TA)"
+                              children: "2025 Spring: Programming Languages (TA)"
+                            }),
+                        JsxRuntime.jsx("li", {
+                              children: "2025 Spring: Program Analysis (TA)"
+                            }),
+                        JsxRuntime.jsx("li", {
+                              children: "2024 Fall: Computer Engineering Seminar (TA)"
                             }),
                         JsxRuntime.jsx("li", {
                               children: "2024 Spring: Programming Languages (TA)"
                             }),
                         JsxRuntime.jsx("ul", {
                               children: JsxRuntime.jsx("li", {
-                                    children: "Received the best TA award"
+                                    children: "Received the outstanding TA award"
                                   })
                             }),
                         JsxRuntime.jsx("li", {
-                              children: "2025 Spring: Programming Languages (TA)"
-                            }),
-                        JsxRuntime.jsx("li", {
-                              children: "2025 Spring: Program Analysis (TA)"
+                              children: "2022 Spring: Programming Languages (TA)"
                             })
                       ]
                     }),

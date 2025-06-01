@@ -29,6 +29,11 @@ let make = () => {
         {"Retargeting an Abstract Interpreter for a New Language by Partial Evaluation"->React.string}
         <ul>
           <li> {"Ongoing research"->React.string} </li>
+          <li>
+            <a href="https://pldi25.sigplan.org/details/pldi-2025-src/1/">
+              {"Accepted to PLDI 2025 Student Research Competition (SRC)"->React.string}
+            </a>
+          </li>
         </ul>
       </li>
       <li>
@@ -37,8 +42,7 @@ let make = () => {
         </a>
         <ul>
           <li>
-            // <a href="./react-trace-preprint.pdf"> {"Submitted to OOPSLA '25"->React.string} </a>
-            {"Submitted to OOPSLA '25"->React.string}
+            {"Submitted to OOPSLA 2025"->React.string}
           </li>
           <li>
             <a href="https://jaylee.xyz/react-trace">
@@ -106,13 +110,14 @@ let make = () => {
     </ul>
     <h2> {"Teaching"->React.string} </h2>
     <ul>
-      <li> {"2022 Spring: Programming Languages (TA)"->React.string} </li>
-      <li> {"2024 Spring: Programming Languages (TA)"->React.string} </li>
-      <ul>
-        <li> {"Received the best TA award"->React.string} </li>
-      </ul>
       <li> {"2025 Spring: Programming Languages (TA)"->React.string} </li>
       <li> {"2025 Spring: Program Analysis (TA)"->React.string} </li>
+      <li> {"2024 Fall: Computer Engineering Seminar (TA)"->React.string} </li>
+      <li> {"2024 Spring: Programming Languages (TA)"->React.string} </li>
+      <ul>
+        <li> {"Received the outstanding TA award"->React.string} </li>
+      </ul>
+      <li> {"2022 Spring: Programming Languages (TA)"->React.string} </li>
     </ul>
     <h2> {"Miscellaneous"->React.string} </h2>
     <ul>
