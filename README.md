@@ -1,24 +1,20 @@
-# ReScript Template
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/APIKEY/deploy-status)](https://app.netlify.com/sites/WEBSITE/deploys)
-
-Yarn + Vite + Tailwind CSS + ReScript 10.1 (RC) + open Belt + ES6 module + Netlify ready
+# ROPAS Home
 
 ## Installation
 
 ```sh
-yarn install
+bun install
 ```
 
 ## Build
 
-- Build: `yarn build:deps`
-- Clean: `yarn clean`
-- Build & watch: `yarn build:watch`
-- Release: `yarn release`
+- Build: `bun build:deps`
+- Clean: `bun clean`
+- Build & watch: `bun build:watch`
+- Release: `bun release`
 
 ## Run
 
 ```sh
-yarn start
+bun start
 ```
