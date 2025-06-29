@@ -31,7 +31,7 @@ let make = () => {
           <li> {"Ongoing research"->React.string} </li>
           <li>
             <a href="https://pldi25.sigplan.org/details/pldi-2025-src/1/">
-              {"Accepted to PLDI 2025 Student Research Competition (SRC)"->React.string}
+              {"PLDI 2025 Student Research Competition (SRC) 2nd place winner in the graduate category"->React.string}
             </a>
           </li>
         </ul>
@@ -42,10 +42,10 @@ let make = () => {
         </a>
         <ul>
           <li>
-            {"Submitted to OOPSLA 2025"->React.string}
+            {"Conditionally accepted to OOPSLA 2025"->React.string}
           </li>
           <li>
-            <a href="https://jaylee.xyz/react-trace">
+            <a href="https://react-trace.vercel.app">
               {"The React-tRace interpreter and visualizer"->React.string}
             </a>
           </li>

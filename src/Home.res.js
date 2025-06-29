@@ -69,7 +69,7 @@ function Home(props) {
                                             }),
                                         JsxRuntime.jsx("li", {
                                               children: JsxRuntime.jsx("a", {
-                                                    children: "Accepted to PLDI 2025 Student Research Competition (SRC)",
+                                                    children: "PLDI 2025 Student Research Competition (SRC) 2nd place winner in the graduate category",
                                                     href: "https://pldi25.sigplan.org/details/pldi-2025-src/1/"
                                                   })
                                             })
@@ -86,12 +86,12 @@ function Home(props) {
                                 JsxRuntime.jsxs("ul", {
                                       children: [
                                         JsxRuntime.jsx("li", {
-                                              children: "Submitted to OOPSLA 2025"
+                                              children: "Conditionally accepted to OOPSLA 2025"
                                             }),
                                         JsxRuntime.jsx("li", {
                                               children: JsxRuntime.jsx("a", {
                                                     children: "The React-tRace interpreter and visualizer",
-                                                    href: "https://jaylee.xyz/react-trace"
+                                                    href: "https://react-trace.vercel.app"
                                                   })
                                             })
                                       ]
